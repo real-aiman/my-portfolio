@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,400..600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Distinctive typography — overrides Tailwind's generic default stacks
+   (this project has no tailwind.config in the uploaded source, so this
+   is applied here at the utility-class level instead). */
+.font-serif {
+  font-family: "Fraunces", "Georgia", serif;
+  font-optical-sizing: auto;
+}
+
+.font-sans {
+  font-family: "Plus Jakarta Sans", -apple-system, "Segoe UI", sans-serif;
+}
+
+
+/* Responsive foundation: prevent accidental horizontal overflow at every viewport. */
+html {
+  overflow-x: hidden;
+  scroll-padding-top: 5.5rem;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  overflow-x: hidden;
+  background: #FFF3E9;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+img, svg, video, canvas {
+  display: block;
+  max-width: 100%;
+}
+
+button, input, textarea, select {
+  font: inherit;
+}
+
+textarea {
+  max-width: 100%;
+}
+
+@media (max-width: 767px) {
+  html {
+    scroll-padding-top: 4.75rem;
+  }
+
+  /* Keep long labels/buttons from forcing the layout wider than the viewport. */
+  a, button {
+    max-width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+/* Final polish: preserve existing palette */
+html { color-scheme: light; }
+img, svg, video, canvas { max-width: 100%; }
+button, a, input, textarea { -webkit-tap-highlight-color: transparent; }
+:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+@media (max-width: 640px) { body { overflow-x: hidden; } input, textarea { min-width: 0; } }

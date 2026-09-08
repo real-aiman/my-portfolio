@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="#FFF3E9"/>
+<rect x="80" y="80" width="1440" height="840" rx="34" fill="#FBE3D1" stroke="#121826" stroke-opacity=".12"/>
+<rect x="80" y="80" width="1440" height="92" rx="34" fill="#121826"/>
+<circle cx="130" cy="126" r="9" fill="#FF8A5B"/><circle cx="162" cy="126" r="9" fill="#FFD2A6"/><circle cx="194" cy="126" r="9" fill="#FFF3E9"/>
+<text x="250" y="138" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#FFF3E9">PinnacleCraft</text>
+<text x="130" y="250" font-family="Arial, sans-serif" font-size="18" letter-spacing="4" fill="#FF8A5B">CLIENT WEBSITE</text>
+<text x="130" y="330" font-family="Georgia, serif" font-size="72" fill="#121826">PinnacleCraft</text>
+<rect x="130" y="390" width="610" height="18" rx="9" fill="#121826" fill-opacity=".14"/>
+<rect x="130" y="430" width="450" height="18" rx="9" fill="#121826" fill-opacity=".10"/>
+<rect x="130" y="510" width="260" height="72" rx="36" fill="#121826"/>
+<text x="195" y="555" font-family="Arial, sans-serif" font-size="20" fill="#FFF3E9">Explore</text>
+<rect x="850" y="240" width="520" height="500" rx="28" fill="#FFF3E9" stroke="#121826" stroke-opacity=".12"/>
+<rect x="900" y="300" width="420" height="180" rx="20" fill="#FFD2A6"/>
+<rect x="900" y="520" width="250" height="20" rx="10" fill="#121826" fill-opacity=".15"/>
+<rect x="900" y="560" width="340" height="14" rx="7" fill="#121826" fill-opacity=".10"/>
+<rect x="900" y="610" width="170" height="52" rx="26" fill="#FF8A5B" fill-opacity=".75"/>
+<text x="130" y="850" font-family="Arial, sans-serif" font-size="18" letter-spacing="3" fill="#121826" fill-opacity=".55">SERVICE / QUOTE</text>
+</svg>
